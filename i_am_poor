@@ -1,0 +1,21 @@
+import 'package:flutter/material.dart';
+
+void main() {
+  runApp(
+      MaterialApp(
+        home: Scaffold(
+          backgroundColor: Colors.red,
+          appBar: AppBar(
+            title: Text('I Am Poor'),
+              backgroundColor: Colors.blueGrey,
+          ),
+          body: Center(
+            child: Image(
+              image:
+                NetworkImage('https%3A%2F%2Fmedia.newyorker.com%2Fphotos%2F5a95a5b13d9089123c9fdb7e%2F2%3A2%2Fw_3289%2Ch_3289%2Cc_limit%2FPetrusich-Dont-Mess-with-the-Birds.jpg&imgrefurl=https%3A%2F%2Fwww.newyorker.com%2Fculture%2Fculture-desk%2Fdont-mess-with-the-birds&tbnid=1bAxtJuhZmsYzM&vet=12ahUKEwjspLjJuqPzAhXukUsFHQ8aCNoQMygVegUIARD2AQ..i&docid=dmNPrfx74HckwM&w=3289&h=3289&q=birds%20images&ved=2ahUKEwjspLjJuqPzAhXukUsFHQ8aCNoQMygVegUIARD2AQ')
+            ),
+          )
+        ),
+      ),
+    );
+  }
